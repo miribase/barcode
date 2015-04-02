@@ -7,13 +7,15 @@ use Rodrigues\Barcode\Parser;
 class Barcode {
 
     protected $cssStyle;
+    protected $html;
     protected $validator;
+    protected $parser;
 
-    public function __construct(Html $html, Validator $validator, Parser $parser)
+    public function __construct()
     {
-        $this->html = $html;
-        $this->validator = $validator;
-        $this->parser = $parser;
+        $this->html = new Html;
+        $this->validator = new Validator;
+        $this->parser = new Parser;
     }
 
     /**
