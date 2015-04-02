@@ -1,0 +1,23 @@
+{
+    "name": "ianrodrigues/codebar",
+    "description": "Package for generating barcodes in HTML format with PHP.",
+    "keywords": ["código de barras", "barcode", "code39"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Rodrigues",
+            "email": "contato@ianrodrigues.com.br"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rodrigues\\Barcode\\": "src/"
+        }
+    }
+}
