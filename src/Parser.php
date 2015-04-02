@@ -59,7 +59,7 @@ class Parser {
             'Q'=>'bwbwbwBWB', 'R'=>'BwbwbwBWb',
             'S'=>'bwBwbwBWb', 'T'=>'bwbwBwBWb',
             'U'=>'BWbwbwbwB', 'V'=>'bWBwbwbwB',
-            'B'=>'BWBwbwbwb', 'X'=>'bWbwBwbwB',
+            'W'=>'BWBwbwbwb', 'X'=>'bWbwBwbwB',
             'Y'=>'BWbwBwbwb', 'Z'=>'bWBwBwbwb',
             '-'=>'bWbwbwBwB', '.'=>'BWbwbwBwb',
             ' '=>'bWBwbwBwb', '$'=>'bWbWbWbwb',
