@@ -1,5 +1,5 @@
 {
-    "name": "ianrodrigues/codebar",
+    "name": "ianrodrigues/barcode",
     "description": "Package for generating barcodes in HTML format with PHP.",
     "keywords": ["código de barras", "barcode", "code39"],
     "type": "library",

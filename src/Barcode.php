@@ -41,9 +41,9 @@ class Barcode {
 
         $code39 = $this->parser->parseStringToCode39($string);
 
-        $codebar = $this->html->generateHtmlToCode($code39);
+        $barcode = $this->html->generateHtmlToCode($code39);
 
-        return $this->html->output($codebar);
+        return $this->html->output($barcode);
     }
     
 }

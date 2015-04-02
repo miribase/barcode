@@ -38,7 +38,7 @@ class HtmlSpec extends ObjectBehavior
     public function it_should_return_the_output_properly()
     {
         $this->output("string")
-             ->shouldReturn("<div class='codebar'>string</div>");
+             ->shouldReturn("<div class='barcode'>string</div>");
     }
 
 }

@@ -48,12 +48,12 @@ class Html {
     /**
      * Returns the barcode in HTML format.
      * 
-     * @param  string $codebar
+     * @param  string $barcode
      * @return string
      */
-    public function output($codebar)
+    public function output($barcode)
     {
-        return sprintf("<div class='codebar'>%s</div>", $codebar);
+        return sprintf("<div class='barcode'>%s</div>", $barcode);
     }
 
     /**
