@@ -1,0 +1,4 @@
+suites:
+    main:
+        namespace: Rodrigues\Barcode
+        psr4_prefix: Rodrigues\Barcode
