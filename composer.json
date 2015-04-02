@@ -1,7 +1,7 @@
 {
     "name": "ianrodrigues/barcode",
     "description": "Package for generating barcodes in HTML format with PHP.",
-    "keywords": ["código", "barras", "barcode", "code39"],
+    "keywords": ["codigo", "barras", "barcode", "code39"],
     "type": "library",
     "license": "MIT",
     "authors": [
