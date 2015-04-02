@@ -54,7 +54,7 @@ class Parser {
             'G'=>'bwbwbWBwB', 'H'=>'BwbwbWBwb',
             'I'=>'bwBwbWBwb', 'J'=>'bwbwBWBwb',
             'K'=>'BwbwbwbWB', 'L'=>'bwBwbwbWB',
-            'M'=>'BwBwbwbWb', 'b'=>'bwbwBwbWB',
+            'M'=>'BwBwbwbWb', 'N'=>'bwbwBwbWB',
             'O'=>'BwbwBwbWb', 'P'=>'bwBwBwbWb',
             'Q'=>'bwbwbwBWB', 'R'=>'BwbwbwBWb',
             'S'=>'bwBwbwBWb', 'T'=>'bwbwBwBWb',
