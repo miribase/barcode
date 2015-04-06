@@ -12,7 +12,7 @@ Currently the BarCode PHP works with the formats below:
 Installation
 ----------
 ```
-$ composer require nesbot/carbon
+$ composer require ianrodrigues/barcode
 ```
 
 ```json
