@@ -9,10 +9,18 @@ class Html {
     const WHITE_LARGE = 'W';
     const WHITE_THIN  = 'w';
 
-    public function __construct($barcode_height = 50, $thin_line_width = 1)
+    /**
+     * @param array $options Allow default CSS values to be modified
+     */
+    public function __construct($options = [])
     {
-        $large_line_width = $thin_line_width * 3;
-        $this->cssStyle = '.barcode{height:'.$barcode_height.'px}.barcode div{display:inline-block;height:100%}.barcode .black{border-color:#000;border-left-style:solid;width:0}.barcode .white{background:#fff}.barcode .thin.black{border-left-width:'.$thin_line_width.'px}.barcode .large.black{border-left-width:'.$large_line_width.'px}.barcode .thin.white{width:'.$thin_line_width.'px}.barcode .large.white{width:'.$large_line_width.'px}';
+        $defaults = [
+            'height' => 50,
+            'thin_lin_width' => 1
+        ];
+        $options += $defaults;
+        $options['large_line_width'] = $options['thin_line_width'] * 3;
+        $this->cssStyle = '.barcode{height:'.$options['height'].'px}.barcode div{display:inline-block;height:100%}.barcode .black{border-color:#000;border-left-style:solid;width:0}.barcode .white{background:#fff}.barcode .thin.black{border-left-width:'.$options['thin_line_width'].'px}.barcode .large.black{border-left-width:'.$options['large_line_width'].'px}.barcode .thin.white{width:'.$options['thin_line_width'].'px}.barcode .large.white{width:'.$options['large_line_width'].'px}';
     }
 
     /**
