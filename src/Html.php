@@ -9,9 +9,10 @@ class Html {
     const WHITE_LARGE = 'W';
     const WHITE_THIN  = 'w';
 
-    public function __construct()
+    public function __construct($barcode_height = 50, $thin_line_width = 1)
     {
-        $this->cssStyle = ".barcode{height:50px}.barcode div{display:inline-block;height:100%}.barcode .black{border-color:#000;border-left-style:solid;width:0}.barcode .white{background:#fff}.barcode .thin.black{border-left-width:1px}.barcode .large.black{border-left-width:3px}.barcode .thin.white{width:1px}.barcode .large.white{width:3px}";
+        $large_line_width = $thin_line_width * 3;
+        $this->cssStyle = '.barcode{height:'.$barcode_height.'px}.barcode div{display:inline-block;height:100%}.barcode .black{border-color:#000;border-left-style:solid;width:0}.barcode .white{background:#fff}.barcode .thin.black{border-left-width:'.$thin_line_width.'px}.barcode .large.black{border-left-width:'.$large_line_width.'px}.barcode .thin.white{width:'.$thin_line_width.'px}.barcode .large.white{width:'.$large_line_width.'px}';
     }
 
     /**

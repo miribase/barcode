@@ -11,9 +11,13 @@ class Barcode {
     protected $validator;
     protected $parser;
 
-    public function __construct()
+    public function __construct(Html $html = null)
     {
-        $this->html = new Html;
+        if($html === null) {
+            $this->html = new Html;
+        } else {
+            $this->html = $html;
+        }
         $this->validator = new Validator;
         $this->parser = new Parser;
     }
