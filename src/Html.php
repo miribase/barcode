@@ -16,7 +16,7 @@ class Html {
     {
         $defaults = [
             'height' => 50,
-            'thin_lin_width' => 1
+            'thin_line_width' => 1
         ];
         $options += $defaults;
         $options['large_line_width'] = $options['thin_line_width'] * 3;
